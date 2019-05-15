@@ -1,0 +1,13 @@
+package service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+import repository.SiteRepository;
+
+public class SiteServiceImplementation implements SiteService {
+
+	 @Autowired
+	    private SiteRepository siteRepository;
+
+}

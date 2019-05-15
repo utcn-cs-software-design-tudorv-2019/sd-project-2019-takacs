@@ -1,0 +1,38 @@
+package service;
+
+import java.util.List;
+import java.util.Optional;
+
+import entity.Password;
+
+public class PasswordServiceImplementation implements PasswordService {
+
+    @Autowired
+    private PasswordRepository passwordRepository;
+
+	public List<Password> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Optional<Password> findCenter(int passwordId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Password createCenter(String name, String address, String phone, String city, String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Password updateCenter(int passwordId, String name, String address, String phone, String city, String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void deletePassword(int passwordId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

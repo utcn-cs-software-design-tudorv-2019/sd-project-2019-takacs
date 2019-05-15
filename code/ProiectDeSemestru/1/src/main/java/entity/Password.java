@@ -30,8 +30,52 @@ public class Password implements Serializable{
     private String passwordText;
 
     @Column(name = "complexity", nullable = false)
-    private int passwordComplexity;
+    private String passwordComplexity;
 
     @OneToOne(mappedBy = "address")
     private User user;
+
+	public Password(String passwordText, String passwordComplexity) {
+		super();
+		this.passwordText = passwordText;
+		this.passwordComplexity = passwordComplexity;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getPasswordText() {
+		return passwordText;
+	}
+
+	public void setPasswordText(String passwordText) {
+		this.passwordText = passwordText;
+	}
+
+	public String getPasswordComplexity() {
+		return passwordComplexity;
+	}
+
+	public void setPasswordComplexity(String passwordComplexity) {
+		this.passwordComplexity = passwordComplexity;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+    
+    
 }

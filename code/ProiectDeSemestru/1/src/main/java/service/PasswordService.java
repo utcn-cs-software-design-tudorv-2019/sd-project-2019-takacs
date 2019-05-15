@@ -6,11 +6,11 @@ import entity.Password;
 public interface PasswordService {
 	List<Password> findAll();
 
-    Optional<Password> findCenter(int passwordId);
+    Optional<Password> findPassword(int passwordId);
 
-    Password createCenter(String name, String address, String phone, String city, String email);
+    Password createPassword(String text,String complexity);
 
-    Password updateCenter(int passwordId, String name, String address, String phone, String city, String email);
+    Password updatePassword(int passwordId, String text,String complexity);
 
     void deletePassword(int passwordId);
 

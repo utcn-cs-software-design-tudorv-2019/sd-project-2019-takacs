@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+D:\Facultate\AnIII\2018\Sem2\PS\Laborator\ProiectDeSemestru\.metadata\.plugins\org.eclipse.jdt.core
+165944440.index
+2842528100.index
+1183702625.index
+458533224.index
+701664610.index
+492722818.index
+1120762366.index
+239920033.index
+3354140172.index
+101253277.index
+1105496636.index
+2637883766.index
+2379890352.index
+1327752848.index
+3011648371.index
+453361708.index
+823697043.index
+1701225497.index
+648496704.index
+2795570734.index
+359679938.index
